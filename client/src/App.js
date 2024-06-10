@@ -110,7 +110,7 @@ class App extends React.Component {
             </Group>
             <Group w={'100%'}>
             <Button color="#228be6" onClick={() => axios({
-                    url:'http://localhost:3001/bmicalc',
+                    url:'bmicalc',
                     method: 'post',
                     data: {
                         weight: this.props.weight,
@@ -146,7 +146,7 @@ class App extends React.Component {
             <Group w={'100%'}>
             <Button color="#228be6" onClick={
               () => axios({
-                url:'http://localhost:3001/bmicalc',
+                url:'bmicalc',
                 method: 'post',
                 data: {
                     weight: this.props.weight,
