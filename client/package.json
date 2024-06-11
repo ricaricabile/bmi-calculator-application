@@ -2,8 +2,7 @@
   "name": "bmi-calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ricaricabile.github.io/bmi-calculator-application",
-  "proxy": "http://192.168.0.17:3000",
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@mantine/core": "^7.10.1",
     "@mantine/hooks": "^7.10.1",
@@ -15,7 +14,6 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "dayjs": "^1.11.11",
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-redux": "^9.1.2",
@@ -28,9 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
