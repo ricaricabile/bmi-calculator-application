@@ -54,7 +54,7 @@ class App extends React.Component {
     </Group>
     <SimpleGrid  cols={{ base: 2, xs: 2 }} spacing={50} mt={50}>
       <Group size={60} style={{backgroundColor:'#d0ebff', borderRadius:'5px'}} p={20}>
-          <div style={{display:'flex', gap: 2, alignContent: 'center', alignItems: 'flex-end'}} >
+          <Group style={{display:'flex', gap: 2, alignContent: 'center', alignItems: 'flex-end'}} >
             <NumberInput
                label="Your Weight"
                placeholder='Ibs'
@@ -62,7 +62,7 @@ class App extends React.Component {
                onChange={this.handleInputWeight}
               />
               <Text fw="500" size={'sm'} pb={7.5}>(pounds)</Text>
-              </div>
+              </Group>
               <Group wrap="nowrap">
             <Select
                 w={'50%'}
@@ -129,7 +129,7 @@ class App extends React.Component {
       </Group>
       
       <Group size={60} style={{backgroundColor:'#d0ebff', borderRadius:'5px'}} p={20}>
-          <div style={{display:'flex', gap: 2, alignContent: 'center', alignItems: 'flex-end'}} >
+          <Group style={{display:'flex', gap: 2, alignContent: 'center', alignItems: 'flex-end'}} >
             <NumberInput
                label="Your Weight"
                placeholder='Kgs'
@@ -137,7 +137,7 @@ class App extends React.Component {
                onChange={this.handleInputWeight}
               />
               <Text fw="500" size={'sm'} pb={7.5}>(kgs)</Text>
-              </div>
+              </Group>
               <NumberInput
                label="(centimeters)"
                hideControls
