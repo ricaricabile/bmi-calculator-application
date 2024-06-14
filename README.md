@@ -1,5 +1,9 @@
+# REDIRECT here
 hi please redirect to this link > https://github.com/ricaricabile/bmi-calculator-website
 i have to move this project because i have conflict with github due to deployment hiccup.
+
+# dont mind this old message
+
 
 # bmi-calculator-application
 /*This application calculates a person body mass index. Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. This calculator provides body mass index (BMI) and the corresponding BMI weight status category for adults.
